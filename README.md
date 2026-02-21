@@ -5,4 +5,4 @@ Educational notebooks for adaptive and blind signal processing, including classi
 
 ### JADE
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdtu/dsp-adaptive-blind/blob/main/notebooks/BSS/DSP_BSS_01_JADE.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BSS/DSP_BSS_01_JADE.ipynb)
