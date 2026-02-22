@@ -19,6 +19,14 @@ notebooks/
     └── DSP_BSS_03_SOBI.ipynb  
 ```
 
+## Requirements
+
+- Python 3.9+
+- NumPy
+- SciPy
+- Matplotlib
+- librosa (audio demo)
+
 ## Adaptive Signal Processing(ASP) Notebooks
 
 ### LMS
