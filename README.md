@@ -8,9 +8,10 @@ Educational notebooks for adaptive and blind signal processing, including classi
 - SOBI           : Second-order statistics
 
 ### JADE
-
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BSS/DSP_BSS_01_JADE.ipynb)
 
 ### FastICA
-
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BSS/DSP_BSS_02_FastICA.ipynb)
+
+### SOBI
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BSS/DSP_BSS_03_SOBI.ipynb)
