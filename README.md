@@ -9,7 +9,7 @@ Run notebooks directly in Google Colab via the badges below.
 Repository: https://github.com/ogawa-tdu/dsp-adaptive-blind
 
 ## Repository Structure
-'''
+```
 notebooks/  
 ├── ASP/  
 │   └── DSP_ASP_01_LMS.ipynb  
@@ -17,7 +17,7 @@ notebooks/
     ├── DSP_BSS_01_JADE.ipynb  
     ├── DSP_BSS_02_FastICA.ipynb  
     └── DSP_BSS_03_SOBI.ipynb  
-'''
+```
 
 ## Adaptive Notebooks
 
