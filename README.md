@@ -2,6 +2,10 @@
 Educational notebooks for adaptive and blind signal processing, including classical and data-driven methods.
 
 ## BSS Notebooks
+## Structure
+
+- JADE / FastICA : High-order statistics (ICA)
+- SOBI           : Second-order statistics
 
 ### JADE
 
