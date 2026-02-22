@@ -24,7 +24,7 @@ notebooks/
 ### LMS
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/ASP/DSP_ASP_01_LMS.ipynb)
 
-## Blind Signal Separation(BSS) Notebooks
+## Blind Source Separation(BSS) Notebooks
 ## Structure
 
 - JADE / FastICA : ICA (Higher-order statistics)
