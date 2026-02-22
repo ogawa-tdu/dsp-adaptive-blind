@@ -19,12 +19,12 @@ notebooks/
     └── DSP_BSS_03_SOBI.ipynb  
 ```
 
-## Adaptive Notebooks
+## Adaptive Signal Processing(ASP) Notebooks
 
 ### LMS
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/ASP/DSP_ASP_01_LMS.ipynb)
 
-## BSS Notebooks
+## Blind Signal Separation(BSS) Notebooks
 ## Structure
 
 - JADE / FastICA : ICA (Higher-order statistics)
