@@ -1,7 +1,7 @@
 # dsp-adaptive-blind
 Educational notebooks for adaptive and blind signal processing, including classical and data-driven methods.
 Run notebooks directly in Google Colab via the badges below.
-Repository: https://github.com/ogawa-tdtu/dsp-adaptive-blind
+Repository: https://github.com/ogawa-tdu/dsp-adaptive-blind
 
 ## Adaptive Notebooks
 
