@@ -4,8 +4,8 @@ Educational notebooks for adaptive and blind signal processing, including classi
 ## BSS Notebooks
 ## Structure
 
-- JADE / FastICA : High-order statistics (ICA)
-- SOBI           : Second-order statistics
+- JADE / FastICA : ICA (Higher-order statistics)
+- SOBI : Second-order statistical BSS
 
 ### JADE
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BSS/DSP_BSS_01_JADE.ipynb)
