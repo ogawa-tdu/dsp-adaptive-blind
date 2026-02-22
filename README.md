@@ -1,5 +1,5 @@
 # dsp-adaptive-blind
-Educational Jupyter notebooks for adaptive and blind signal processing.
+Educational Jupyter notebooks for adaptive and blind signal processing. A minimal, clean implementation set for educational demonstration and hands-on experimentation.
 
 - Adaptive Signal Processing (LMS, ALE, ANC)
 - Blind Source Separation (JADE, FastICA, SOBI)
@@ -19,21 +19,13 @@ notebooks/
     └── DSP_BSS_03_SOBI.ipynb  
 ```
 
-## Requirements
-
-- Python 3.9+
-- NumPy
-- SciPy
-- Matplotlib
-- librosa (audio demo)
-
-## Adaptive Signal Processing(ASP) Notebooks
+## Adaptive Signal Processing (ASP) Notebooks
 
 ### LMS
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/ASP/DSP_ASP_01_LMS.ipynb)
 
-## Blind Source Separation(BSS) Notebooks
-## Structure
+## Blind Source Separation (BSS) Notebooks
+### Algorithmic Structure
 
 - JADE / FastICA : ICA (Higher-order statistics)
 - SOBI : Second-order statistical BSS
@@ -47,6 +39,14 @@ notebooks/
 ### SOBI
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BSS/DSP_BSS_03_SOBI.ipynb)
 
+## Requirements
+
+- Python 3.9+
+- NumPy
+- SciPy
+- Matplotlib
+- librosa (audio demo)
+
 ## Planned Additions
 - ALE
 - ANC
@@ -54,4 +54,4 @@ notebooks/
 - Deep Learning based BSS
 
 ## License
-MIT License. Free for educational and research use.
+MIT License. Free for educational, research, and commercial use.
