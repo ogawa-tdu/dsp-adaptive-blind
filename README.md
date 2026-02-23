@@ -29,6 +29,7 @@ Demonstrates convergence behavior and coefficient identification.
 
 ### ALE
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/ASP/DSP_ASP_02_ALE.ipynb)
+Noise reduction using Adaptive Line Enhancer (ALE). Demonstrates periodic component extraction from noisy signals.
 
 ## Blind Source Separation (BSS) Notebooks
 ### Algorithmic Structure
@@ -38,12 +39,15 @@ Demonstrates convergence behavior and coefficient identification.
 
 ### JADE
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BSS/DSP_BSS_01_JADE.ipynb)
+Blind source separation using fourth-order statistics (JADE). Demonstrates separation via joint diagonalization of cumulant matrices.
 
 ### FastICA
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BSS/DSP_BSS_02_FastICA.ipynb)
+Blind source separation using fixed-point ICA (FastICA). Demonstrates the effect of nonlinearity selection on separation performance.
 
 ### SOBI
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BSS/DSP_BSS_03_SOBI.ipynb)
+Blind source separation using second-order statistics (SOBI). Demonstrates the impact of lag design on separation quality.
 
 ## Requirements
 Tested on Google Colab (recommended)
