@@ -15,10 +15,12 @@ notebooks/
 │   └── DSP_ASP_01_LMS.ipynb
 │   ├── DSP_ASP_02_ALE.ipynb
 │   └── DSP_ASP_03_ANC.ipynb  
-└── BSS/  
-    ├── DSP_BSS_01_JADE.ipynb  
-    ├── DSP_BSS_02_FastICA.ipynb  
-    └── DSP_BSS_03_SOBI.ipynb  
+├── BSS/  
+│   ├── DSP_BSS_01_JADE.ipynb  
+│   ├── DSP_BSS_02_FastICA.ipynb  
+│   └── DSP_BSS_03_SOBI.ipynb
+├───FND/
+    └── DSP_FND_01_Signal_and_Noise.ipynb
 ```
 ### Algorithmic Structure
 
