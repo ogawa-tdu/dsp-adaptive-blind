@@ -33,6 +33,12 @@ Blind Source Separation
 - JADE / FastICA : Higher-order statistics (ICA)
 - SOBI : Second-order statistical BSS
 
+## Signal Processing Fundamentals (FND)
+
+### Signal & Noise (SNR demonstration)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/FND/DSP_FND_01_Signal_and_Noise.ipynb)
+Explores the relationship between SNR and signal clarity in both time and frequency domains.
+
 ## Adaptive Signal Processing (ASP) Notebooks
 
 ### LMS
@@ -62,12 +68,6 @@ Blind source separation using fixed-point ICA (FastICA). Demonstrates the effect
 ### SOBI
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BSS/DSP_BSS_03_SOBI.ipynb)
 Blind source separation using second-order statistics (SOBI). Demonstrates the impact of lag design on separation quality.
-
-## Signal Processing Fundamentals
-
-### Signal & Noise (SNR demonstration)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/FND/DSP_FND_01_Signal_and_Noise.ipynb)
-Explores the relationship between SNR and signal clarity in both time and frequency domains.
 
 ## Requirements
 Tested on Google Colab (recommended)
