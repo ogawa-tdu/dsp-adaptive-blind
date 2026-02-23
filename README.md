@@ -20,7 +20,8 @@ notebooks/
 │   ├── DSP_BSS_02_FastICA.ipynb  
 │   └── DSP_BSS_03_SOBI.ipynb
 └───FND/
-    └── DSP_FND_01_Signal_and_Noise.ipynb
+    ├── DSP_FND_01_Signal_and_Noise.ipynb
+    └── DSP_FND_02_Wiener_filter.ipynb
 ```
 ### Algorithmic Structure
 
@@ -38,6 +39,11 @@ Blind Source Separation
 ### Signal & Noise (SNR demonstration)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/FND/DSP_FND_01_Signal_and_Noise.ipynb)
 Explores the relationship between SNR and signal clarity in both time and frequency domains.
+
+### Wiener filter
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/FND/DSP_FND_02_Wiener_filter.ipynb)
+Demonstrates theoretical optimal noise reduction using the Wiener filter (MMSE).
+Explores frequency-domain gain design and practical limitations under real-world assumptions.
 
 ## Adaptive Signal Processing (ASP) Notebooks
 
@@ -78,6 +84,11 @@ Tested on Google Colab (recommended)
 - librosa (audio demo)
 
 ## Planned Additions
+### Signal Processing Fundamentals (FND)
+- Ideal low-pass vs Wiener comparison
+- Non-stationary noise example
+- Causal FIR Wiener
+
 ### Adaptive Signal Processing (ASP)
 - NLMS
 - RLS
