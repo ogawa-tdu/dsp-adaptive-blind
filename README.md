@@ -66,9 +66,8 @@ Blind source separation using second-order statistics (SOBI). Demonstrates the i
 ## Signal Processing Fundamentals
 
 ### Signal & Noise (SNR demonstration)
-Explores the relationship between SNR and signal clarity in both time and frequency domains.
-
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/FND/DSP_FND_01_Signal_and_Noise.ipynb)
+Explores the relationship between SNR and signal clarity in both time and frequency domains.
 
 ## Requirements
 Tested on Google Colab (recommended)
