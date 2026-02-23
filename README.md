@@ -33,7 +33,7 @@ Blind Source Separation
 - JADE / FastICA : Higher-order statistics (ICA)
 - SOBI : Second-order statistical BSS
 
-## Signal Processing Fundamentals (FND)
+## Signal Processing Fundamentals (FND) Notebooks
 
 ### Signal & Noise (SNR demonstration)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/FND/DSP_FND_01_Signal_and_Noise.ipynb)
