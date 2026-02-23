@@ -70,8 +70,18 @@ Tested on Google Colab (recommended)
 - librosa (audio demo)
 
 ## Planned Additions
-- ILRMA
+### Adaptive Signal Processing (ASP)
+- NLMS
+- RLS
+- Widely Linear LMS
+- Kalman Filter
+- Sparse algorithm
+### Blind Source Separation (BSS)
+- Natural Gradient ICA
+- Frequency domain ICA
+- NMF based BSS
 - Deep Learning based BSS
+- Deep Unfolding based BSS
 
 ## License
 MIT License. Free for educational, research, and commercial use.
