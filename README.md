@@ -24,6 +24,8 @@ notebooks/
 
 ### LMS
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/ASP/DSP_ASP_01_LMS.ipynb)
+Adaptive filtering using LMS algorithm.
+Demonstrates convergence behavior and coefficient identification.
 
 ### ALE
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/ASP/DSP_ASP_02_ALE.ipynb)
@@ -44,7 +46,7 @@ notebooks/
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BSS/DSP_BSS_03_SOBI.ipynb)
 
 ## Requirements
-
+Tested on Google Colab (recommended)
 - Python 3.9+
 - NumPy
 - SciPy
