@@ -19,7 +19,7 @@ FND → ASP → BSS
 
 No installation is required if you use Google Colab.
 
-## How to Experiment
+### How to Experiment
 
 These notebooks are designed for exploration.
 
@@ -29,6 +29,13 @@ These notebooks are designed for exploration.
 - Ask: *Why does this work? When does it fail?*
 
 Signal processing is best understood through controlled experimentation.
+
+### Suggested Exploration Themes
+
+- Stability vs. convergence speed (LMS step size)
+- Noise level vs. recoverability (SNR)
+- Model order vs. performance
+- Assumptions vs. reality (stationarity, independence, etc.)
 
 ## Repository Structure
 ```
