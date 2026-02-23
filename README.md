@@ -12,7 +12,8 @@ Repository: https://github.com/ogawa-tdu/dsp-adaptive-blind
 ```
 notebooks/  
 ├── ASP/  
-│   └── DSP_ASP_01_LMS.ipynb  
+│   └── DSP_ASP_01_LMS.ipynb
+│   ├── DSP_ASP_02_ALE.ipynb  
 └── BSS/  
     ├── DSP_BSS_01_JADE.ipynb  
     ├── DSP_BSS_02_FastICA.ipynb  
@@ -23,6 +24,9 @@ notebooks/
 
 ### LMS
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/ASP/DSP_ASP_01_LMS.ipynb)
+
+### ALE
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/ASP/DSP_ASP_02_ALE.ipynb)
 
 ## Blind Source Separation (BSS) Notebooks
 ### Algorithmic Structure
@@ -48,7 +52,6 @@ notebooks/
 - librosa (audio demo)
 
 ## Planned Additions
-- ALE
 - ANC
 - ILRMA
 - Deep Learning based BSS
