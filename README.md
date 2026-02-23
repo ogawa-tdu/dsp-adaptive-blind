@@ -13,7 +13,8 @@ Repository: https://github.com/ogawa-tdu/dsp-adaptive-blind
 notebooks/  
 ├── ASP/  
 │   └── DSP_ASP_01_LMS.ipynb
-│   ├── DSP_ASP_02_ALE.ipynb  
+│   ├── DSP_ASP_02_ALE.ipynb
+│   └── DSP_ASP_03_ANC.ipynb  
 └── BSS/  
     ├── DSP_BSS_01_JADE.ipynb  
     ├── DSP_BSS_02_FastICA.ipynb  
@@ -30,6 +31,11 @@ Demonstrates convergence behavior and coefficient identification.
 ### ALE
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/ASP/DSP_ASP_02_ALE.ipynb)
 Noise reduction using Adaptive Line Enhancer (ALE). Demonstrates periodic component extraction from noisy signals.
+
+### ANC
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/ASP/DSP_ASP_03_ANC.ipynb)
+Adaptive Noise Cancellation (ANC) using LMS.
+Implements a simplified feedforward ANC model without secondary path effects.
 
 ## Blind Source Separation (BSS) Notebooks
 ### Algorithmic Structure
