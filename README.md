@@ -1,4 +1,4 @@
-# dsp-adaptive-blind
+# Adaptive & Blind Signal Processing Notebooks
 Educational Jupyter notebooks for adaptive and blind signal processing. A minimal, clean implementation set for educational demonstration and hands-on experimentation.
 
 - Adaptive Signal Processing (LMS, ALE, ANC)
