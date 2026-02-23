@@ -19,7 +19,7 @@ notebooks/
 │   ├── DSP_BSS_01_JADE.ipynb  
 │   ├── DSP_BSS_02_FastICA.ipynb  
 │   └── DSP_BSS_03_SOBI.ipynb
-├───FND/
+└───FND/
     └── DSP_FND_01_Signal_and_Noise.ipynb
 ```
 ### Algorithmic Structure
