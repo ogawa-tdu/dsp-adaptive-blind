@@ -1,15 +1,34 @@
 # Adaptive & Blind Signal Processing Notebooks
-Educational Jupyter notebooks for adaptive and blind signal processing. A minimal, clean implementation set for educational demonstration and hands-on experimentation.
+Educational Jupyter notebooks for adaptive and blind signal processing. A minimal, clean implementation collection for educational demonstration and hands-on experimentation.
 
 - Adaptive Signal Processing (LMS, ALE, ANC)
 - Blind Source Separation (JADE, FastICA, SOBI)
 - Designed for seminars, lectures, and hands-on practice.
 
+Run notebooks directly in Google Colab via the badges below.  
+Repository: https://github.com/ogawa-tdu/dsp-adaptive-blind
+
 Recommended Order:
 FND → ASP → BSS
 
-Run notebooks directly in Google Colab via the badges below.  
-Repository: https://github.com/ogawa-tdu/dsp-adaptive-blind
+## Quick Start
+
+1. Open a notebook using the **"Open in Colab"** badge.
+2. Run all cells from top to bottom.
+3. Modify key parameters (e.g., SNR, step size, filter order, lag number) and observe how the results change.
+
+No installation is required if you use Google Colab.
+
+## How to Experiment
+
+These notebooks are designed for exploration.
+
+- Change one parameter at a time and observe the effect.
+- Try extreme values to understand failure cases.
+- Compare time-domain and frequency-domain behavior.
+- Ask: *Why does this work? When does it fail?*
+
+Signal processing is best understood through controlled experimentation.
 
 ## Repository Structure
 ```
