@@ -5,6 +5,9 @@ Educational Jupyter notebooks for adaptive and blind signal processing. A minima
 - Blind Source Separation (JADE, FastICA, SOBI)
 - Designed for seminars, lectures, and hands-on practice.
 
+Recommended Order:
+FND → ASP → BSS
+
 Run notebooks directly in Google Colab via the badges below.  
 Repository: https://github.com/ogawa-tdu/dsp-adaptive-blind
 
@@ -12,14 +15,14 @@ Repository: https://github.com/ogawa-tdu/dsp-adaptive-blind
 ```
 notebooks/  
 ├── ASP/  
-│   └── DSP_ASP_01_LMS.ipynb
+│   ├── DSP_ASP_01_LMS.ipynb
 │   ├── DSP_ASP_02_ALE.ipynb
 │   └── DSP_ASP_03_ANC.ipynb  
 ├── BSS/  
 │   ├── DSP_BSS_01_JADE.ipynb  
 │   ├── DSP_BSS_02_FastICA.ipynb  
 │   └── DSP_BSS_03_SOBI.ipynb
-└───FND/
+└── FND/
     ├── DSP_FND_01_Signal_and_Noise.ipynb
     └── DSP_FND_02_Wiener_filter.ipynb
 ```
@@ -35,6 +38,7 @@ Blind Source Separation
 - SOBI : Second-order statistical BSS
 
 ## Signal Processing Fundamentals (FND) Notebooks
+Fundamental signal processing concepts and baselines for later algorithms (SNR, optimal filtering).
 
 ### Signal & Noise (SNR demonstration)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/FND/DSP_FND_01_Signal_and_Noise.ipynb)
@@ -46,6 +50,7 @@ Demonstrates theoretical optimal noise reduction using the Wiener filter (MMSE).
 Explores frequency-domain gain design and practical limitations under real-world assumptions.
 
 ## Adaptive Signal Processing (ASP) Notebooks
+Online/recursive parameter estimation: update a filter from data to track changing systems and environments.
 
 ### LMS
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/ASP/DSP_ASP_01_LMS.ipynb)
@@ -62,6 +67,7 @@ Adaptive Noise Cancellation (ANC) using LMS.
 Implements a simplified feedforward ANC model without secondary path effects.
 
 ## Blind Source Separation (BSS) Notebooks
+Recover latent sources from mixtures using structural assumptions (e.g., independence, temporal diversity, low-rankness).
 
 ### JADE
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BSS/DSP_BSS_01_JADE.ipynb)
@@ -81,7 +87,7 @@ Tested on Google Colab (recommended)
 - NumPy
 - SciPy
 - Matplotlib
-- librosa (audio demo)
+- librosa (optional, for audio demos)
 
 ## Planned Additions
 ### Signal Processing Fundamentals (FND)
