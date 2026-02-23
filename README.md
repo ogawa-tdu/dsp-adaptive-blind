@@ -20,6 +20,16 @@ notebooks/
     ├── DSP_BSS_02_FastICA.ipynb  
     └── DSP_BSS_03_SOBI.ipynb  
 ```
+### Algorithmic Structure
+
+Adaptive Signal Processing
+- LMS : System identification
+- ALE : Periodic signal enhancement
+- ANC : Reference-based noise cancellation
+
+Blind Source Separation
+- JADE / FastICA : Higher-order statistics (ICA)
+- SOBI : Second-order statistical BSS
 
 ## Adaptive Signal Processing (ASP) Notebooks
 
@@ -38,10 +48,6 @@ Adaptive Noise Cancellation (ANC) using LMS.
 Implements a simplified feedforward ANC model without secondary path effects.
 
 ## Blind Source Separation (BSS) Notebooks
-### Algorithmic Structure
-
-- JADE / FastICA : ICA (Higher-order statistics)
-- SOBI : Second-order statistical BSS
 
 ### JADE
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BSS/DSP_BSS_01_JADE.ipynb)
