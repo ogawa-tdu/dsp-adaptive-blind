@@ -70,7 +70,6 @@ Tested on Google Colab (recommended)
 - librosa (audio demo)
 
 ## Planned Additions
-- ANC
 - ILRMA
 - Deep Learning based BSS
 
