@@ -128,8 +128,6 @@ Tested on Google Colab (recommended)
 - Causal FIR Wiener
 
 ### Adaptive Signal Processing (ASP)
-- NLMS
-- RLS
 - Widely Linear LMS
 - Kalman Filter
 - Sparse algorithm
