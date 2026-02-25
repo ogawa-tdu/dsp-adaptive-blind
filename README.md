@@ -43,7 +43,8 @@ notebooks/
 ├── ASP/  
 │   ├── DSP_ASP_01_LMS.ipynb
 │   ├── DSP_ASP_02_ALE.ipynb
-│   └── DSP_ASP_03_ANC.ipynb  
+│   ├── DSP_ASP_03_ANC.ipynb  
+│   └── DSP_ASP_04_SysIdentification_Compare.ipynb  
 ├── BSS/  
 │   ├── DSP_BSS_01_JADE.ipynb  
 │   ├── DSP_BSS_02_FastICA.ipynb  
@@ -91,6 +92,11 @@ Noise reduction using Adaptive Line Enhancer (ALE). Demonstrates periodic compon
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/ASP/DSP_ASP_03_ANC.ipynb)
 Adaptive Noise Cancellation (ANC) using LMS.
 Implements a simplified feedforward ANC model without secondary path effects.
+
+### SysID: LMS vs NLMS vs APA vs RLS (comparison)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/ASP/DSP_ASP_04_SysIdentification_Compare.ipynb)
+Compares adaptive filters for system identification under white/colored inputs. Highlights convergence speed, stability, and parameter sensitivity (e.g., RLS forgetting factor).  
+**RLS is sensitive to λ and initialization; inappropriate settings may cause instability.**
 
 ## Blind Source Separation (BSS) Notebooks
 Recover latent sources from mixtures using structural assumptions (e.g., independence, temporal diversity, low-rankness).
