@@ -111,7 +111,7 @@ Recover transmitted signals from unknown channels without training sequences.
 Blind equalization using the Sato algorithm for multi-level PAM signals.
 Includes theoretical explanation, residual ISI monitoring, and pseudo-constellation (delay embedding) visualization.
 
-#### CMA (4-PAM, real-valued)
+### CMA (4-PAM, real-valued)
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BE/DSP_BE_02_CMA.ipynb)
 Blind equalization using the Constant Modulus Algorithm (CMA).
