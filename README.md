@@ -98,8 +98,7 @@ Implements a simplified feedforward ANC model without secondary path effects.
 ### SysID: LMS vs NLMS vs APA vs RLS (comparison)
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/ASP/DSP_ASP_04_SysIdentification_Compare.ipynb)
 Compares adaptive filters for system identification under white/colored inputs. Highlights convergence speed, stability, and parameter sensitivity (e.g., RLS forgetting factor).  
-> ⚠️ **Note on RLS:**  
-> RLS is sensitive to λ and initialization; inappropriate settings may cause instability.
+> ⚠️ **Note on RLS:** RLS is sensitive to λ and initialization; inappropriate settings may cause instability.
 
 ## Blind Equalization (BE) Notebooks
 
