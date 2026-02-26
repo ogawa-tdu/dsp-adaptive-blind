@@ -107,7 +107,6 @@ Recover transmitted signals from unknown channels without training sequences.
 ### Sato (4-PAM, real-valued)
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BE/DSP_BE_01_Sato_Algorithm.ipynb)
-
 Blind equalization using the Sato algorithm for multi-level PAM signals.
 Includes theoretical explanation, residual ISI monitoring, and pseudo-constellation (delay embedding) visualization.
 
