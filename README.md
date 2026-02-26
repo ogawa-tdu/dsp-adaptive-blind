@@ -46,7 +46,8 @@ notebooks/
 │   ├── DSP_ASP_03_ANC.ipynb  
 │   └── DSP_ASP_04_SysIdentification_Compare.ipynb  
 ├── BE/  
-│   └── DSP_BE_01_Sato_Algorithm.ipynb
+│   ├── DSP_BE_01_Sato_Algorithm.ipynb
+│   └── DSP_BE_02_CMA.ipynb
 ├── BSS/  
 │   ├── DSP_BSS_01_JADE.ipynb  
 │   ├── DSP_BSS_02_FastICA.ipynb  
@@ -109,6 +110,12 @@ Recover transmitted signals from unknown channels without training sequences.
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BE/DSP_BE_01_Sato_Algorithm.ipynb)
 Blind equalization using the Sato algorithm for multi-level PAM signals.
 Includes theoretical explanation, residual ISI monitoring, and pseudo-constellation (delay embedding) visualization.
+
+#### CMA (4-PAM, real-valued)
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BE/DSP_BE_02_CMA.ipynb)
+Blind equalization using the Constant Modulus Algorithm (CMA).
+Demonstrates moment-based adaptation, residual ISI monitoring, and pseudo-constellation (delay embedding) visualization.
 
 ## Blind Source Separation (BSS) Notebooks
 Recover latent sources from mixtures using structural assumptions (e.g., independence, temporal diversity, low-rankness).
