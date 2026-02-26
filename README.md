@@ -45,6 +45,8 @@ notebooks/
 │   ├── DSP_ASP_02_ALE.ipynb
 │   ├── DSP_ASP_03_ANC.ipynb  
 │   └── DSP_ASP_04_SysIdentification_Compare.ipynb  
+├── BE/  
+│   └── DSP_BE_01_Sato_Algorithm.ipynb
 ├── BSS/  
 │   ├── DSP_BSS_01_JADE.ipynb  
 │   ├── DSP_BSS_02_FastICA.ipynb  
@@ -98,6 +100,17 @@ Implements a simplified feedforward ANC model without secondary path effects.
 Compares adaptive filters for system identification under white/colored inputs. Highlights convergence speed, stability, and parameter sensitivity (e.g., RLS forgetting factor).  
 > ⚠️ **Note on RLS:**  
 > RLS is sensitive to λ and initialization; inappropriate settings may cause instability.
+
+## Blind Equalization (BE) Notebooks
+
+Recover transmitted signals from unknown channels without training sequences.
+
+### Sato (4-PAM, real-valued)
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ogawa-tdu/dsp-adaptive-blind/blob/main/notebooks/BE/DSP_BE_01_Sato_Algorithm.ipynb)
+
+Blind equalization using the Sato algorithm for multi-level PAM signals.
+Includes theoretical explanation, residual ISI monitoring, and pseudo-constellation (delay embedding) visualization.
 
 ## Blind Source Separation (BSS) Notebooks
 Recover latent sources from mixtures using structural assumptions (e.g., independence, temporal diversity, low-rankness).
