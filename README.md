@@ -8,8 +8,9 @@ Educational Jupyter notebooks for adaptive and blind signal processing. A minima
 Run notebooks directly in Google Colab via the badges below.  
 Repository: https://github.com/ogawa-tdu/dsp-adaptive-blind
 
-Recommended Order:
-FND → ASP → BSS
+**Recommended Learning Path:**  
+FND → ASP → (BE or BSS)
+> Choose BE for blind equalization problems (channel compensation),or BSS for source separation problems.
 
 ## Quick Start
 
